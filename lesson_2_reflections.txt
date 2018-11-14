@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+Создается папка с впомогательными файлами, открывается первый коммит, но он не коммитится
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Это просто временный буфер, куда мы складываем ссылки на файлы, которые подлежат коммиту в дальнейшем
