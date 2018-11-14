@@ -2,3 +2,5 @@ What happens when you initialize a repository? Why do you need to do it?
 Создается папка с впомогательными файлами, открывается первый коммит, но он не коммитится
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Это просто временный буфер, куда мы складываем ссылки на файлы, которые подлежат коммиту в дальнейшем
+How can you use the staging area to make sure you have one commit per logical change?
+Если я кучу всего наменял и не закоммитил, то я могу собирать маленькие коммиты в staging area и потихоньку все изменения закоммитить.
