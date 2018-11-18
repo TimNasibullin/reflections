@@ -1,2 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work local?
 Совместная работа, работа на нескольких компьютерах, бекап данных на случай отказа системы, публикация исходников наружу
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Кто-то может внести изменения, которых я не жду, в частности в файлах, с которыми я работаю в данный момент.
