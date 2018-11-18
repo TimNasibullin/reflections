@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 Совместная работа, работа на нескольких компьютерах, бекап данных на случай отказа системы, публикация исходников наружу
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Кто-то может внести изменения, которых я не жду, в частности в файлах, с которыми я работаю в данный момент.
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+форки чисто для гитхаба чтобы сразу клонировать чужой репозиторий, клон - для копирования репозитория как удаленно, так и локально. Ветки не создают нового репозитория. Форк если я беру чужой проект для создания своего на гитхаб, клон для копирования чужого репозитория к себе и работы с ним, бранч для внедрения фичи или т.п.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Можно сравнить текущее состояние ветки с исходным, чтобы увидеть все изменения, подлежащие push. Можно сделать fetch, а потом спокойно мержить в случае изменений в удаленном репозитории
